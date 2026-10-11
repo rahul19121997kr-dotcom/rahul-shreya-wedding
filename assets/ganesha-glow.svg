@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 790" role="img" aria-labelledby="title desc">
+  <title id="title">Luminous illustration of Lord Ganesha</title>
+  <desc id="desc">A reverent original red, rose and antique-gold portrait of Lord Ganesha, surrounded by a softly glowing mandala.</desc>
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="38%" r="78%"><stop stop-color="#f27d69"/><stop offset=".42" stop-color="#ae3b55"/><stop offset="1" stop-color="#381328"/></radialGradient>
+    <radialGradient id="halo" cx="50%" cy="45%" r="58%"><stop stop-color="#ffe7a4" stop-opacity=".86"/><stop offset=".35" stop-color="#ffb35e" stop-opacity=".34"/><stop offset="1" stop-color="#ff8a65" stop-opacity="0"/></radialGradient>
+    <linearGradient id="face" x1=".12" y1=".12" x2=".88" y2=".92"><stop stop-color="#ffd277"/><stop offset=".32" stop-color="#f58a59"/><stop offset=".7" stop-color="#db5260"/><stop offset="1" stop-color="#9d294f"/></linearGradient>
+    <linearGradient id="ear" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffca76"/><stop offset=".45" stop-color="#e76b5e"/><stop offset="1" stop-color="#9c3554"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2bd"/><stop offset=".38" stop-color="#e8bd69"/><stop offset=".72" stop-color="#ac6c3e"/><stop offset="1" stop-color="#f6d88f"/></linearGradient>
+    <linearGradient id="trunk" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#ffc879"/><stop offset=".48" stop-color="#eb8060"/><stop offset="1" stop-color="#b73d59"/></linearGradient>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#260c20" flood-opacity=".43"/></filter>
+    <pattern id="brocade" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M18 3c8 7 8 13 0 17-8-4-8-10 0-17Zm0 17c8 4 8 10 0 14-8-4-8-10 0-14ZM3 18c7-8 13-8 17 0-4 8-10 8-17 0Zm17 0c4-8 10-8 14 0-4 8-10 8-14 0Z" fill="none" stroke="#f0cb81" stroke-opacity=".16" stroke-width="1.2"/></pattern>
+    <style>
+      .halo{transform-origin:320px 350px;animation:halo-breathe 5s ease-in-out infinite}
+      .jewel{animation:jewel-glint 3.8s ease-in-out infinite alternate}
+      .sparkle{animation:twinkle 2.8s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+      .sparkle:nth-of-type(2n){animation-delay:-1.4s}
+      @keyframes halo-breathe{0%,100%{opacity:.76;transform:scale(.97)}50%{opacity:1;transform:scale(1.035)}}
+      @keyframes jewel-glint{to{filter:brightness(1.32) drop-shadow(0 0 6px #ffe7a4)}}
+      @keyframes twinkle{to{opacity:.28;transform:scale(.6)}}
+      @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="640" height="790" rx="26" fill="url(#bg)"/>
+  <rect x="18" y="18" width="604" height="754" rx="18" fill="url(#brocade)" stroke="url(#gold)" stroke-opacity=".38" stroke-width="2"/>
+  <g opacity=".18" fill="none" stroke="#ffe4a0">
+    <circle cx="320" cy="348" r="258" stroke-width="1.4"/><circle cx="320" cy="348" r="238" stroke-width="1"/>
+    <circle cx="320" cy="348" r="211" stroke-width="1" stroke-dasharray="2 8"/>
+    <path d="M320 73c24 35 24 58 0 79-24-21-24-44 0-79Zm0 392c24 35 24 58 0 79-24-21-24-44 0-79ZM45 348c35-24 58-24 79 0-21 24-44 24-79 0Zm392 0c35-24 58-24 79 0-21 24-44 24-79 0Z" stroke-width="2"/>
+    <path d="M126 154c48 12 62 29 51 59-30 11-47-3-59-51Zm336 336c-48-12-62-29-51-59 30-11 47 3 59 51ZM514 154c-12 48-29 62-59 51-11-30 3-47 51-59ZM178 490c12-48 29-62 59-51 11 30-3 47-51 59Z" stroke-width="2"/>
+  </g>
+  <circle class="halo" cx="320" cy="348" r="242" fill="url(#halo)" filter="url(#soft-glow)"/>
+  <g class="sparkle" fill="#fff3c5"><path d="m104 284 5 14 14 5-14 5-5 14-5-14-14-5 14-5Zm421-107 4 11 11 4-11 4-4 11-4-11-11-4 11-4Zm-27 299 4 12 12 4-12 4-4 12-4-12-12-4 12-4Z"/></g>
+  <!-- broad elephant ears -->
+  <path d="M249 267c-46-80-131-120-177-64-32 39 15 166 91 206 39 21 73 6 102-23Zm142 0c46-80 131-120 177-64 32 39-15 166-91 206-39 21-73 6-102-23Z" fill="url(#ear)" stroke="url(#gold)" stroke-width="7" filter="url(#shadow)"/>
+  <path d="M218 294c-38-52-82-72-103-46-16 20 18 105 64 131 19 11 37 7 54-11Zm204 0c38-52 82-72 103-46 16 20-18 105-64 131-19 11-37 7-54-11Z" fill="none" stroke="#ffd788" stroke-opacity=".72" stroke-width="4"/>
+  <path d="M215 314c-29-35-54-44-65-29-9 13 13 64 41 78 12 6 23 3 34-9Zm210 0c29-35 54-44 65-29 9 13-13 64-41 78-12 6-23 3-34-9Z" fill="none" stroke="#ffdaa0" stroke-opacity=".5" stroke-width="3"/>
+  <!-- jeweled crown -->
+  <g filter="url(#shadow)">
+    <path d="M236 221 208 137l57 36 55-93 57 93 55-36-28 84Z" fill="url(#gold)" stroke="#fff0bd" stroke-width="4"/>
+    <path d="m226 207 94 16 94-16-7 24H233Z" fill="#9e3c50" stroke="url(#gold)" stroke-width="4"/>
+    <path d="M263 167q57-34 114 0M247 196q73-26 146 0" fill="none" stroke="#fff0bd" stroke-width="3"/>
+    <g class="jewel" fill="#58b9ad" stroke="#fff0bd" stroke-width="3"><path d="m320 121 15 18-15 19-15-19Z"/><circle cx="263" cy="192" r="8"/><circle cx="377" cy="192" r="8"/></g>
+    <circle cx="320" cy="218" r="9" fill="#e9c36f" stroke="#fff1c8" stroke-width="3"/>
+  </g>
+  <!-- face and forehead -->
+  <path d="M230 262c0-91 39-142 90-142s90 51 90 142v91c0 99-34 161-90 161s-90-62-90-161Z" fill="url(#face)" stroke="url(#gold)" stroke-width="7" filter="url(#shadow)"/>
+  <path d="M247 285c-4-83 23-133 73-133s77 50 73 133c-30-27-51-38-73-38s-43 11-73 38Z" fill="#e96f64" opacity=".54"/>
+  <!-- sacred tilak -->
+  <path d="M320 193c-15 20-16 35 0 46 16-11 15-26 0-46Z" fill="#fff0c5"/>
+  <path d="M320 201c-6 8-6 15 0 20 6-5 6-12 0-20Z" fill="#55b9b1"/>
+  <circle cx="320" cy="239" r="6" fill="#ffeab0"/>
+  <!-- calm, gentle eyes -->
+  <path d="M257 315q28-30 56 0-28 37-56 0Zm54 0q28-30 56 0-28 37-56 0Z" fill="#fff2d4" stroke="#713447" stroke-width="4"/>
+  <ellipse cx="285" cy="315" rx="10" ry="15" fill="#253a43"/><ellipse cx="339" cy="315" rx="10" ry="15" fill="#253a43"/>
+  <circle cx="288" cy="310" r="4" fill="#fff"/><circle cx="342" cy="310" r="4" fill="#fff"/>
+  <path d="M251 305q31-24 63 0m-5 0q31-24 63 0" fill="none" stroke="#70313f" stroke-width="5" stroke-linecap="round"/>
+  <!-- softly curling trunk -->
+  <path d="M320 345c2 45 37 57 46 94 8 34-17 63-44 65-22 1-39-13-37-31 2-16 21-26 38-17 13 7 15 22 7 31 27-11 32-37 18-62-18-32-55-43-61-80Z" fill="url(#trunk)" stroke="url(#gold)" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M320 357c5 36 32 48 41 82 5 17-2 34-16 43" fill="none" stroke="#ffd994" stroke-opacity=".82" stroke-width="4" stroke-linecap="round"/>
+  <path d="M286 368q-20 32-5 57l29-21Z" fill="#fff0d0" stroke="url(#gold)" stroke-width="4"/>
+  <path d="M354 368q20 32 5 57l-29-21Z" fill="#fff0d0" stroke="url(#gold)" stroke-width="4"/>
+  <path d="M320 348v25" stroke="#ffe6a8" stroke-width="3" stroke-linecap="round"/>
+  <!-- blessing hand and lotus at the base -->
+  <path d="M123 535c-4-27-3-53 4-68 5-11 15-9 17 3l5 28-1-51c0-14 16-15 19-2l6 45 1-37c1-14 17-13 19 1l4 39 4-28c2-13 17-10 17 4l-2 54c-1 26-22 47-49 47-23 0-40-15-44-35Z" fill="url(#face)" stroke="url(#gold)" stroke-width="5" stroke-linejoin="round"/>
+  <path d="m170 589 15 16m-37-7 10 17m-29-29 7 18m62-8 14 11" stroke="#ffe1a0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M265 665q27-39 55 0 28-39 55 0-27 45-55 53-28-8-55-53Z" fill="#d94d61" stroke="url(#gold)" stroke-width="4"/>
+  <path d="M320 714v22m-24-8q24-15 48 0" fill="none" stroke="#f4d487" stroke-width="4" stroke-linecap="round"/>
+  <path d="M95 712q225 26 450 0" fill="none" stroke="url(#gold)" stroke-width="3" opacity=".76"/>
+  <text x="320" y="753" text-anchor="middle" fill="#ffe9b1" font-family="serif" font-size="18" letter-spacing="4">॥ श्री गणेशाय नमः ॥</text>
+</svg>
